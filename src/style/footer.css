@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.contact {
+  height: 24px;
+  width: auto;
+}

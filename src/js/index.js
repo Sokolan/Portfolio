@@ -1,4 +1,4 @@
-import createDisplay from "./modules/displayHandler";
 import "../style/style.css"
-
-createDisplay();
+import "../style/skills.css"
+import "../style/projects.css"
+import "../style/footer.css"

@@ -1,0 +1,27 @@
+.skills-section {
+  display: flex;
+  /* grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  /* overflow: scroll; */
+  padding: 24px 80px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-img {
+  height: 40px;
+  /* width: auto; */
+}
+
+.skill-description {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+}
