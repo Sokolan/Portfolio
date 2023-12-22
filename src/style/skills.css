@@ -1,13 +1,10 @@
 .skills-section {
+  background-color: red;
   display: flex;
-  /* grid-template-rows: 1fr;
-  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); */
-  /* justify-content: center; */
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
-  /* overflow: scroll; */
-  padding: 24px 80px;
+  padding: 40px 80px;
 }
 
 .skill-container {
@@ -17,7 +14,6 @@
 
 .skill-img {
   height: 40px;
-  /* width: auto; */
 }
 
 .skill-description {

@@ -8,17 +8,19 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    static: './dist',
+    static: path.resolve(__dirname, 'dist'),
+    hot: true,
   },
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    // clean: true,
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: "Portfolio",
-      template: './src/index.html',
+      template: path.join(__dirname, 'src', 'index.html'),
+      filename: 'index.html',
     })
   ],
 

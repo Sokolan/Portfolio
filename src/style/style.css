@@ -1,14 +1,13 @@
 body, html {
-  /* height: 100%; */
-  overflow: scroll;
-  padding: 8px;
+  margin: 0;
 }
 
 #content {
   /* height: 100%; */
   /* width: 100%; */
   display: flex;
-  overflow: scroll;
+  /* overflow: scroll; */
   flex-direction: column;
+  align-items: stretch;
   /* justify-content: space-between; */
 }
