@@ -2,8 +2,8 @@ footer {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding: 16px;
-  background-color: brown;
+  padding: 24px 24px;
+  background-color: rgb(255, 255, 255);
 }
 
 .contact {
